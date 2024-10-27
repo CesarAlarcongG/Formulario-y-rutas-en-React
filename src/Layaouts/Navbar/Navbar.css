@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    width: 94%;
+    height: 8%;
+    border-radius: 9px;
+    background-color: black;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+nav li a{
+    color: white;
+    font-family: "Potta One", system-ui;
+    text-decoration: none;
+    margin: 6px;
+}
+nav li a:hover {
+    color: red;
+}
+
+.visual{
+    display: flex;
+    flex-direction: row;
+}
